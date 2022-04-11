@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="du05">
+  <Parameters>
+    <Parameter id="0" name="Registrace" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="4" name="JmenoPrijemi" type="1">
+      <values>
+        <value>NULL</value>
+        <value>Viktor</value>
+        <value>##%@^</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="5" name="Destinace" type="1">
+      <values>
+        <value>Rim</value>
+        <value>Moskva</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="6" name="DatumNarozeni" type="1">
+      <values>
+        <value>08.10.2021</value>
+        <value>10.04.2016</value>
+        <value>10.04.1996</value>
+        <value>10.04.1957</value>
+        <value>10.04.1922</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="7" name="Sleva" type="1">
+      <values>
+        <value>Student</value>
+        <value>Duchodce</value>
+        <value>SlevovyKupon</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>false</Value>
+      <Value>NULL</Value>
+      <Value>Moskva</Value>
+      <Value>08.10.2021</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>true</Value>
+      <Value>Viktor</Value>
+      <Value>Rim</Value>
+      <Value>08.10.2021</Value>
+      <Value>SlevovyKupon</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>false</Value>
+      <Value>##%@^</Value>
+      <Value>Rim</Value>
+      <Value>08.10.2021</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>true</Value>
+      <Value>NULL</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.2016</Value>
+      <Value>SlevovyKupon</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>false</Value>
+      <Value>Viktor</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.2016</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>true</Value>
+      <Value>##%@^</Value>
+      <Value>Rim</Value>
+      <Value>10.04.2016</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>true</Value>
+      <Value>NULL</Value>
+      <Value>Rim</Value>
+      <Value>10.04.1996</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>false</Value>
+      <Value>Viktor</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.1996</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>false</Value>
+      <Value>##%@^</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.1996</Value>
+      <Value>SlevovyKupon</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>true</Value>
+      <Value>NULL</Value>
+      <Value>Rim</Value>
+      <Value>10.04.1957</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>false</Value>
+      <Value>Viktor</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.1957</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>false</Value>
+      <Value>##%@^</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.1957</Value>
+      <Value>SlevovyKupon</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>true</Value>
+      <Value>NULL</Value>
+      <Value>Rim</Value>
+      <Value>10.04.1922</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>false</Value>
+      <Value>Viktor</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.1922</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>true</Value>
+      <Value>##%@^</Value>
+      <Value>Moskva</Value>
+      <Value>10.04.1922</Value>
+      <Value>SlevovyKupon</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>Registrace</Value>
+    <Value>JmenoPrijemi</Value>
+    <Value>Destinace</Value>
+    <Value>DatumNarozeni</Value>
+    <Value>Sleva</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.04</ExecutionTime>
+    <MaxDomainSize>5</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>87</TotalNoOfCombination>
+    <TotalNoOfTests>15</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+

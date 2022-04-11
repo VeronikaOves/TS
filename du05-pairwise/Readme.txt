@@ -1,0 +1,1 @@
+Jako testovaci hodnoty pro datum narozeni jsem vybrala datumy ktere odpovidaji veku do dvou let, akorat 6 let, akorat 26 let, akorat 65 let a 100 let. Vek narozeni v budoucnu a nad 100 let nepripada mi smysuplne testovat, protoze takove data uz budou osetrena na front a back end.
