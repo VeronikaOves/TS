@@ -1,0 +1,77 @@
+# ACTS Test Suite Generation: Tue Apr 12 18:14:25 CEST 2022
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 6
+# Maximum number of values per parameter: 5
+# Number of configurations: 70
+FirstName,LastName,Email,BirthDate,Destination,Discount
+Viktor,Rudenko,myemail@gmail.com,05.03.2022,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,05.03.2022,Berlin,None
+Viktor,Rudenko,myemail@gmail.com,05.03.2022,NewYork,Student
+Viktor,Rudenko,myemail@gmail.com,05.03.2022,Berlin,Senior
+Viktor,Rudenko,myemail@gmail.com,05.03.2022,NewYork,Coupon
+Viktor,Rudenko,myemail@gmail.com,11.04.2014,Berlin,NULL
+Viktor,Rudenko,myemail@gmail.com,11.04.2014,NewYork,None
+Viktor,Rudenko,myemail@gmail.com,11.04.2014,Berlin,Student
+Viktor,Rudenko,myemail@gmail.com,11.04.2014,NewYork,Senior
+Viktor,Rudenko,myemail@gmail.com,11.04.2014,Berlin,Coupon
+Viktor,Rudenko,myemail@gmail.com,11.04.1996,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,11.04.1996,Berlin,None
+Viktor,Rudenko,myemail@gmail.com,11.04.1996,NewYork,Student
+Viktor,Rudenko,myemail@gmail.com,11.04.1996,Berlin,Senior
+Viktor,Rudenko,myemail@gmail.com,11.04.1996,Berlin,Coupon
+Viktor,Rudenko,myemail@gmail.com,11.04.1957,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,11.04.1957,Berlin,None
+Viktor,Rudenko,myemail@gmail.com,11.04.1957,NewYork,Student
+Viktor,Rudenko,myemail@gmail.com,11.04.1957,NewYork,Senior
+Viktor,Rudenko,myemail@gmail.com,11.04.1957,NewYork,Coupon
+Viktor,Rudenko,myemail@gmail.com,11.04.1922,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,11.04.1922,Berlin,None
+Viktor,Rudenko,myemail@gmail.com,11.04.1922,NewYork,Student
+Viktor,Rudenko,myemail@gmail.com,11.04.1922,Berlin,Senior
+Viktor,Rudenko,myemail@gmail.com,11.04.1922,NewYork,Coupon
+NULL,Rudenko,myemail@gmail.com,05.03.2022,NewYork,None
+30#$,Rudenko,myemail@gmail.com,05.03.2022,Berlin,Student
+NULL,Rudenko,myemail@gmail.com,11.04.2014,Berlin,Senior
+30#$,Rudenko,myemail@gmail.com,11.04.2014,NewYork,Coupon
+NULL,Rudenko,myemail@gmail.com,11.04.1996,Berlin,NULL
+30#$,Rudenko,myemail@gmail.com,11.04.1996,NewYork,None
+NULL,Rudenko,myemail@gmail.com,11.04.1957,NewYork,Student
+30#$,Rudenko,myemail@gmail.com,11.04.1957,Berlin,Senior
+NULL,Rudenko,myemail@gmail.com,11.04.1922,Berlin,Coupon
+30#$,Rudenko,myemail@gmail.com,11.04.1922,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,03.04.2025,Berlin,None
+Viktor,Rudenko,myemail@gmail.com,01.10.1800,NewYork,Student
+Viktor,Rudenko,myemail@gmail.com,NULL,Berlin,Senior
+Viktor,NULL,myemail@gmail.com,05.03.2022,NewYork,Coupon
+Viktor,3$%#!!,myemail@gmail.com,05.03.2022,Berlin,NULL
+Viktor,NULL,myemail@gmail.com,11.04.2014,Berlin,None
+Viktor,NULL,myemail@gmail.com,11.04.1996,NewYork,Student
+Viktor,NULL,myemail@gmail.com,11.04.1957,NewYork,Senior
+Viktor,NULL,myemail@gmail.com,11.04.1922,NewYork,NULL
+Viktor,3$%#!!,myemail@gmail.com,11.04.2014,NewYork,Coupon
+Viktor,3$%#!!,myemail@gmail.com,11.04.1996,Berlin,None
+Viktor,3$%#!!,myemail@gmail.com,11.04.1957,Berlin,Student
+Viktor,3$%#!!,myemail@gmail.com,11.04.1922,NewYork,Senior
+Viktor,Rudenko,sllss1,05.03.2022,NewYork,Coupon
+Viktor,Rudenko,NULL,05.03.2022,Berlin,NULL
+Viktor,Rudenko,sllss1,11.04.2014,Berlin,None
+Viktor,Rudenko,sllss1,11.04.1996,Berlin,Student
+Viktor,Rudenko,sllss1,11.04.1957,Berlin,Senior
+Viktor,Rudenko,sllss1,11.04.1922,NewYork,NULL
+Viktor,Rudenko,NULL,11.04.2014,NewYork,Coupon
+Viktor,Rudenko,NULL,11.04.1996,NewYork,None
+Viktor,Rudenko,NULL,11.04.1957,NewYork,Student
+Viktor,Rudenko,NULL,11.04.1922,Berlin,Senior
+Viktor,Rudenko,myemail@gmail.com,03.04.2025,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,01.10.1800,Berlin,NULL
+Viktor,Rudenko,myemail@gmail.com,NULL,NewYork,NULL
+Viktor,Rudenko,myemail@gmail.com,01.10.1800,NewYork,None
+Viktor,Rudenko,myemail@gmail.com,NULL,Berlin,None
+Viktor,Rudenko,myemail@gmail.com,03.04.2025,Berlin,Student
+Viktor,Rudenko,myemail@gmail.com,NULL,Berlin,Student
+Viktor,Rudenko,myemail@gmail.com,03.04.2025,Berlin,Senior
+Viktor,Rudenko,myemail@gmail.com,01.10.1800,Berlin,Senior
+Viktor,Rudenko,myemail@gmail.com,03.04.2025,NewYork,Coupon
+Viktor,Rudenko,myemail@gmail.com,01.10.1800,Berlin,Coupon
+Viktor,Rudenko,myemail@gmail.com,NULL,Berlin,Coupon
