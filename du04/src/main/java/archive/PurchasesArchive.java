@@ -51,7 +51,7 @@ public class PurchasesArchive {
         }
     }
 
-    public HashMap getItemPurchaseArchive(){
+    public HashMap<Integer, ItemPurchaseArchiveEntry> getItemPurchaseArchive(){
         return itemPurchaseArchive;
     }
 

@@ -7,8 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import shop.Item;
 import shop.Order;
-import shop.ShoppingCart;
-import shop.StandardItem;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -50,8 +49,8 @@ public class PurchasesArchiveTest {
         HashMap<Integer,ItemPurchaseArchiveEntry > hasMap = new HashMap<>();
         hasMap.put(1, itemPurchaseArchiveEntry);
         purchasesArchive = new PurchasesArchive(hasMap, orderArray);
-        String expectedResult = new String();
-        expectedResult = "ITEM PURCHASE STATISTICS:\r\nTest text";
+
+        String expectedResult = "ITEM PURCHASE STATISTICS:\r\nTest text";
 
         // Act
         purchasesArchive.printItemPurchaseStatistics();
@@ -63,8 +62,7 @@ public class PurchasesArchiveTest {
     @Test
     public void printEmptyItemPurchaseStatistics_printsLn() {
         // Arrange
-        String expectedResult = new String();
-        expectedResult = "ITEM PURCHASE STATISTICS:";
+        String expectedResult = "ITEM PURCHASE STATISTICS:";
 
         // Act
         emptyPurchasesArchive.printItemPurchaseStatistics();
@@ -136,7 +134,7 @@ public class PurchasesArchiveTest {
         order = Mockito.mock(Order.class);
         ArrayList<Order> orderList = new ArrayList<>();
         HashMap<Integer,ItemPurchaseArchiveEntry > hasMap = new HashMap<>();
-
+        itemPurchaseArchiveEntry = Mockito.mock(ItemPurchaseArchiveEntry.class);
         purchasesArchive = new PurchasesArchive(hasMap, orderList);
         when(order.getItems()).thenReturn(itemsList);
         when(item.getID()).thenReturn(1);
@@ -146,7 +144,7 @@ public class PurchasesArchiveTest {
 
 
         // Assert
-        Assertions.assertEquals(item, purchasesArchive.getItemPurchaseArchive().get(1)); // Ja nevim proc on mi vrati tohle jako object ne jako ItemPurchaseArchiveEntry(( nemuzu pouzit metodu getRefItem()
+        Assertions.assertEquals(item, purchasesArchive.getItemPurchaseArchive().get(1).getRefItem());
         Mockito.verify(itemPurchaseArchiveEntry, times(0)).increaseCountHowManyTimesHasBeenSold(1);
 
     }
